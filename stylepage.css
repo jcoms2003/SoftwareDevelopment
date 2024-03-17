@@ -1,0 +1,209 @@
+/* This is my CSS page for my "desired job" research website */
+/* Body style */
+body { 
+    background-color: #e3dcd2; 
+    margin-right: 15px;
+    margin-left: 15px;
+}
+header {
+    background-color: #cc8b65;
+    margin: auto;
+    color: #100c0d;
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* Navigation Bar style */
+#nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #013328;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #ffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+li a:hover:not(.active) {
+    background-color: #100c0d;
+}
+  
+.active {
+    background-color: #100c0d;
+}
+
+/* Text Color */  
+.textcolor {
+    color: #e3dcd2;
+}
+
+/* Main header */
+.mainhead {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Article style */
+article {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #cc8b65;
+    color:#100c0d;
+    border: 2px solid #013328; 
+    max-width: 65%;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+aside {
+    float: right;
+    margin: 15px;
+    padding: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #cc8b65;
+    border: solid 2px #013328;
+    border-radius: 10px;
+    max-width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Images */
+#img1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 40%;
+    height: 15%;
+    border: solid 2px #013328;
+}
+#img2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 25%;
+    height: 10%;
+    border: solid 2px #013328;
+    float: right;
+    border-radius: 20px;
+}
+/* Reg list */
+dd a:hover {
+    color: lawngreen;
+    text-decoration: none;
+}
+dd a {
+    color: #013328;
+}
+
+/* Text style classes */
+.indent {
+    text-indent: 35px;
+}
+/* Video style */
+video {
+    position: static; 
+}
+/* Table style */
+#table {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #cc8b65;
+    color:#100c0d;
+    border: 2px solid #013328; 
+    max-width: 85%;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-collapse: collapse;
+
+}
+table {
+    width:100%;
+}
+th {
+    border: 1px solid #013328;
+    text-align: center;
+    padding: 10px;
+    background-color: #e3dcd2;
+}
+td {
+    border: 1px solid #013328;
+    padding: 10px;
+    background-color: #e3dcd2;
+}
+/* From style */
+#theForm {
+    border: 10px solid #100c0d;
+    border-radius: 15px;
+    margin: 15px;
+    max-width: 65%;
+    padding: 20px;
+    background-color: #cc8b65;
+
+}
+input[type=text], select, input[type=date], input[type=number], input[type=time] {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #100c0d; 
+}
+
+        /* Form focus style change */
+        input[type=text]:focus {
+            background-color: #c4b5a1;
+        }
+        select:focus {
+            background-color: #c4b5a1;
+        }
+        input[type=date]:focus {
+            background-color: #c4b5a1;
+        }
+        input[type=number]:focus {
+            background-color: #c4b5a1;
+        }
+        input[type=time]:focus {
+            background-color: #c4b5a1;
+        }
+input[type=submit]{
+    border: 1px solid #100c0d;
+    border-radius: 15px;
+    color: #000000;
+    background-color: #1e7b1e;
+    margin: 5px;
+    padding: 5px;
+}
+input[type=submit]:hover {
+    background-color:  #0f3e0f;
+    color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=reset] {
+    border: 1px solid #100c0d;
+    border-radius: 15px;
+    color: #000000;
+    background-color: #cc0000;
+    margin: 5px;
+    padding: 5px;
+}
+input[type=reset]:hover {
+    background-color: #660000;
+    color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

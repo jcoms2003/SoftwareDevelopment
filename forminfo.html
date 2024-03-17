@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Form </title>
+        <!-- Meta data and link for external CSS page -->
+        <link rel="stylesheet" type="text/css" href="stylepage.css">
+        <link rel="icon" type="image/x-icon" href="homeicon.png">
+        <meta charset="UTF-8">
+        <meta name="description" content="Home Page" >
+        <meta name="keywords" content="software engineer, job, description, sallary">
+        <meta name="author" content="Joshua Comstock">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header> 
+            <h1 class="mainhead"> Software Development </h1>
+        </header>
+        <!-- Navigation bar -->
+        <ul id="nav_bar">
+            <li> <a href="home.html" > Home </a> </li>
+            <li class="active"> <a href="forminfo.html" > Form </a> </li>
+            <li> <a href="tableinfo.html" > Table </a> </li>
+        </ul>
+        <div>
+            <aside>
+                <h4> NOTE </h4>
+                <p> This page is still under development so when you submit this page there will be no effect. Thanks for your patience! </p>
+            </aside>
+        </div>
+        <div id="theForm">
+            <form action="#data1" method="post">
+                <!-- First name -->
+                <label for="fname"> First Name </label> <br>
+                <input type="text" id="fname" name="fname" placeholder="First name..."> <br>
+                <!-- Last Name -->
+                <label for="lname"> Last Name </label> <br>
+                <input type="text" id="lname" name="lname" placeholder="Last name..."> <br>
+                <!-- Today's Date -->
+                <label for="today"> Today's Date </label> <br>
+                <input type="date" id="today" name="today"> <br>
+                <!-- actual time -->
+                <label for="ctime"> Current Time </label> <br>
+                <input type="time" id="ctime" name="ctime"> <br>
+                <!-- What is your favorite language -->
+                <label for="language"> What is your favorite language? </label> <br>
+                <select id="language" name="language">
+                    <option value="python"> Python</option>
+                    <option value="java"> Java </option>
+                    <option value="C"> C </option>
+                    <option value="javascript"> JavaScript </option>
+                    <option value="css"> CSS </option>
+                    <option value="html"> HTML </option>
+                    <option value="php"> PHP </option>
+                    <option value="other"> Other... </option>
+                </select> <br>
+                
+                <!-- Years practice -->
+                <label for="quantity"> How many years have you been coding? </label> <br>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" placeholder="1..."> <br>
+                <!-- Submit -->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+        <!-- Pic for CSS validation proof -->
+        <p>
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" >
+        </p>
+                 
+    </body>
+
+</html>
